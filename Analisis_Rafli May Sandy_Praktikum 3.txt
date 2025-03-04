@@ -1,0 +1,15 @@
+Analisis: 
+	Dalam percobaan pada minggu ke-3 ini, saya melakukan percobaan mendeteksi objek dengan 
+menggunakan deep leraning dan night visison. Dalam percobaan ini saya menggunakan Convolutional 
+Neural Network (CNN) sebagai model klasifikasi gambar untuk mengenali kategori objek yang muncul 
+di kamera, selain itu saya juga menggunakan TensorFlow untuk membuat dan menjalankan model CNN. 
+Dalam proses pembuatan, program dibagi menjadi 2 dengan format yang berbeda, program pertama 
+menggunakan format juypiter yaitu ipynb. Pada program pertama digunakan untuk membuat dan melatih 
+CNN dalam melakukan klasifikasi objek. Sedangkan program kedua dengan format python atau py 
+digunakan untuk melakukan klasifikasi objek secara real-time dari kamera dengan tambahan fitur night 
+vision. Ketika program dijalankan meghasilkan 2 frame yang berbeda, yaitu frame utama yang 
+menampilkan video dari kamera secara langsung. Pada frame ini program akan melakukan klasifikasi 
+objek berdasarkan hasil prediksi model CNN. Jika model berhasil mendeteksi objek, nama kelas objek 
+akan muncul di frame ini. Sedangkan pada Frame kedua merupakan frame night visison yang 
+memberikan tampilan alternatif dalam mode penglihatan malam. Pada frame ini tidak digunakan untuk 
+klasifikasi, tapi hanya untuk meningkatkan visibilitas dalam kondisi ketika kurang cahaya.
